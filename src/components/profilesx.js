@@ -78,8 +78,9 @@ function item(data, score){
                         <span className="name text-dark">Date</span>
                     </div>                
                 </div>
-                <div className="score">
-            <span>{value.highscore}</span>
+                    <div className="score">
+                        
+                        <span>{value.highscore.toFixed(2)}</span>
                
                 </div>    
             </div>    

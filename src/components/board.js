@@ -23,7 +23,7 @@ export default function Board(props) {
 
     function LaserRoom()
     {
-        setScore('LaserRoomLeaderboard');
+        setScore('LaserRoom');
         props.changeBackground('LaserRoom');
     }
 

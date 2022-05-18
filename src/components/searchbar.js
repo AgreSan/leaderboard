@@ -78,7 +78,7 @@ function item(data, score){
                     </div>                
                 </div>
                 <div className="score">
-            <span>{value.highscore}</span>
+                <span>{value.highscore.toFixed(2)}</span>
                
                 </div>    
             </div>    
