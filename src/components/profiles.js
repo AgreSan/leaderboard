@@ -4,7 +4,7 @@ export default function Profiles({Leaderboard, roomscore}) {
    
     let score =[];
     console.log({roomscore})
-    if (roomscore === 'MirrorRoom')
+    if (roomscore === 'LaserRoom')
     {
         Leaderboard.forEach(element => {
             score.push(element.scoreMirror)
@@ -17,7 +17,7 @@ export default function Profiles({Leaderboard, roomscore}) {
         score.push(element.scoreGregger)
         });
     }
-    else if (roomscore === 'Squidgame')
+    else if (roomscore === 'SquidGameRoom')
     {
         Leaderboard.forEach(element => {
             score.push(element.scoreSquid)

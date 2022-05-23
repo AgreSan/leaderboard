@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Profiles from './profiles';
 import Fakeprofile from './fakeprofile';
 import {Leaderboard} from './database';
-import MusicPlayer from './musicplayer';
 import {fakeLeaderboard} from './fakedatabase';
 import Profilesx from './profilesx';
 import Searchbar from './searchbar';

@@ -10,7 +10,6 @@ export const Leaderboard = [
     },
     {
         name: "Daniella backend beast",
-        location: "USA",
         score : 2310,
         img: "/pictures/pirat5.PNG",
         dt: "2021-01-01",
@@ -20,7 +19,6 @@ export const Leaderboard = [
     },
     {
         name: "Mads gåseøjne Ronaldo",
-        location: "Chaina",
         score : 350,
         img: "/pictures/pirat5.PNG",
         dt: "2021-08-17",
@@ -30,7 +28,6 @@ export const Leaderboard = [
     },
     {
         name: "Magnus The Coding pirate",
-        location: "Japan",
         score : 2100,
         img: "/pictures/pirat2.PNG",
         dt: "2021-10-23",
@@ -40,7 +37,6 @@ export const Leaderboard = [
     },
     {
         name: "Sandra Face of SoftwareTeknologi",
-        location: "London",
         score : 1250,
         img: "/pictures/pirat5.PNG",
         dt: "2022-01-22",
@@ -50,7 +46,6 @@ export const Leaderboard = [
     },
     {
         name: "Silje backend lunar",
-        location: "Canada",
         score : 5250,
         img: "/pictures/pirat5.PNG",
         dt: "2022-01-21",
@@ -60,7 +55,6 @@ export const Leaderboard = [
     },
     {
         name: "Agre",
-        location: "Canada",
         score : 5250,
         img: "/pictures/pirat5.PNG",
         dt: "2022-01-21",
@@ -70,7 +64,6 @@ export const Leaderboard = [
     },
     {   
         name: "ArvinMus",
-        location: "India",
         score : 1550,
         img: "/pictures/pirat5.PNG",
         dt: "2022-02-10",
@@ -80,7 +73,6 @@ export const Leaderboard = [
     },
     {
         name: "Daniella backend beast",
-        location: "USA",
         score : 2310,
         img: "/pictures/pirat5.PNG",
         dt: "2021-01-01",
@@ -90,7 +82,6 @@ export const Leaderboard = [
     },
     {
         name: "Mads gåseøjne Ronaldo",
-        location: "Chaina",
         score : 350,
         img: "/pictures/pirat5.PNG",
         dt: "2021-08-17",
@@ -100,7 +91,6 @@ export const Leaderboard = [
     },
     {
         name: "Magnus The Coding pirate",
-        location: "Japan",
         score : 2100,
         img: "/pictures/pirat2.PNG",
         dt: "2021-10-23",
@@ -110,7 +100,6 @@ export const Leaderboard = [
     },
     {
         name: "Sandra Face of SoftwareTeknologi",
-        location: "London",
         score : 1250,
         img: "/pictures/pirat5.PNG",
         dt: "2022-01-22",
@@ -120,7 +109,6 @@ export const Leaderboard = [
     },
     {
         name: "Silje backend lunar",
-        location: "Canada",
         score : 5250,
         img: "/pictures/pirat5.PNG",
         dt: "2022-01-21",
@@ -130,7 +118,6 @@ export const Leaderboard = [
     },
     {
         name: "Agre",
-        location: "Canada",
         score : 5250,
         img: "/pictures/pirat5.PNG",
         dt: "2022-01-21",
