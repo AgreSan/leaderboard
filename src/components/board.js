@@ -48,9 +48,10 @@ export default function Board(props) {
             <button onClick={GreggerIsland}>Gregger Island</button>
             <button onClick={LaserRoom} >Laser Room</button>
             <button onClick={Squidgame} >Squid Game</button>
-            <form>
-  <label className='text-dark'>Search Alias:  </label>
-  <input type="text" id="AliasId" name="Alias" value={alias} onChange={Search}   onKeyPress={(e) => { e.key === 'Enter' && e.preventDefault(); }}/>
+        <form>
+            <label className='text-dark'>Search Alias:  </label>
+            <input type="text" id="AliasId" name="Alias" value={alias} onChange={Search}  
+                onKeyPress={(e) => { e.key === 'Enter' && e.preventDefault(); }}/>
         </form>
         </div>
         
@@ -66,6 +67,7 @@ export default function Board(props) {
   
   )
 }
+
 
 
 

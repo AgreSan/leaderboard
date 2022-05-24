@@ -27,7 +27,7 @@ export default function Fecthdata(roomscore) {
         return (
 
             <div>
-              <h1>List of all Jobs <br></br> Model page</h1>
+              <h1>List of all Profiles</h1>
               <table>
         
                 <ol>

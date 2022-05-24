@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 
-export default function Profilesx({aliasname,roomscore}) {
+export default function Searchbar({aliasname,roomscore}) {
    
     const [highscore, setHighscore] = useState([]);
     
@@ -32,37 +32,15 @@ export default function Profilesx({aliasname,roomscore}) {
              seeHighscore();
     
             }, [aliasname])
-    
-    let score =[];
-   // console.log(roomscore)
-    // if (roomscore === 'LaserRoom')
-    // {
-    //     highscore.forEach(element => {
-    //         score.push(element.scoreMirror)
-    //     });
-        
-    // }
-    // else if (roomscore === 'GreggerIsland')
-    // {
-    //     Leaderboard.forEach(element => {
-    //         highscore.push(element.highscore)
-    //     });
-    // }
-    // else if (roomscore === 'SquidGameRoom')
-    // {
-    //     highscore.forEach(element => {
-    //         score.push(element.scoreSquid)
-    //         });
-    // }
 
   return (
     <div id="profile">
-        {item(highscore,score)}
+        {item(highscore)}
     </div>
   )
 }
 
-function item(data, score){
+function item(data){
     
     return (
         <>
